@@ -582,6 +582,28 @@ a.icon-up-bg:hover {color: #212121;}
     padding-left: 2rem;
 }
 
+.skills-sub-heading > h4{
+    margin-bottom: 3rem;
+    font-size: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .skills-sub-heading{
+        margin-left: -2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .skills-sub-heading h4{
+        margin-bottom: 2rem;
+    }
+
+    .portfolio-item {
+        margin: 1rem 1rem;
+    }
+}
+
+
 .skills-sub-content{
     padding: 2rem;
 }
