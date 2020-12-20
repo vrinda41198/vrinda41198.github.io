@@ -541,6 +541,7 @@ html, body {
     width: 100%;
     background-color: #212121;
     z-index: 1;
+    margin-top: -5rem;
 }
 
 .icon {
