@@ -9,9 +9,9 @@
 
     <title>Vrinda Goel</title>
 
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Vrinda Goel Portfolio">
+    <meta name="author" content="Vrinda Goel">
+    <meta name="keywords" content="Vrinda Goel Portfolio">
 
     <!-- Mobile Specific Metas
     ================================================== -->
@@ -63,11 +63,11 @@
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="page-scroll"><a href="#hero">Home</a></li>
-                        <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#service">Skills</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        <li class="page-scroll"><a href="#hero" class="navbar-links">Home</a></li>
+                        <li class="page-scroll"><a href="#about" class="navbar-links">About</a></li>
+                        <li class="page-scroll"><a href="#service" class="navbar-links">Skills</a></li>
+                        <li class="page-scroll"><a href="#portfolio" class="navbar-links">Portfolio</a></li>
+                        <li class="page-scroll"><a href="#contact" class="navbar-links">Contact</a></li>
                         
                     </ul><!-- /.navbar-nav -->
 
@@ -85,9 +85,9 @@
                     <h1>Vrinda Goel</h1>
                     <div class="page-scroll">
                         <p class="job-title">Software Engineer</p>
-                        <a href="#contact" class="btn btn-fill ">Contact me</a>
+                        <a href="#contact" class="btn btn-fill" style="background-color: white; color: black;">Contact me</a>
                         <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                        <a href="#portfolio" class="btn btn-border" style="border-color: white; color: white;">Explore more</a>
                     </div>
                 </div>
             
@@ -99,7 +99,7 @@
         </div>
     </div><!-- /.hero -->
 
-    <main id="main" class="site-main">
+    <main id="main" class="site-main" style="overflow: hidden;">
 
         <section id="about" class="site-section section-about text-center">
             <div class="container">
@@ -148,7 +148,13 @@
         </section><!-- /.secton-skills -->
 
         <section id="service" class="site-section section-services overlay text-center">
-        <div class="container" style="padding: 4rem; text-align: left;">
+        <div class="container" style="
+            padding: 4rem;
+            text-align: left;
+            backdrop-filter: blur(30px);
+            border-radius: 3rem;
+            background: transparent"
+            >
             <div style="text-align:center; padding-bottom: 2rem;">
                 <h3>My Skills</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
@@ -246,34 +252,32 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem1" class="portfolio-item">
                             <img src="assets/img/amex3.png" class="img-res" alt="" style="padding: 0.5rem;">
                             <div class="portfolio-item-info">
                                 <h4>Software Engineer & Technology Intern</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <!--<a href="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                        </a><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #00b45e;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem2" class="portfolio-item" style="border-color: #00b45e;">
                             <img src="assets/img/grab1.png" class="img-res" alt="" style="object-fit: contain; padding: 1rem;">
                             <div class="portfolio-item-info">
                                 <h4>Software Engineer Intern</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a> -->
                                 <!-- <a href="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #a74238;">
-                            <img src="assets/img/rt.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">
-                                <h4>Software Development Intern</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="https://www.razorthink.com/industries/customer-care-and-support/"><span class="glyphicon glyphicon-link"></span></a>
-                            </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem3" class="portfolio-item" style="border-color: #a74238;">
+                          <img src="assets/img/rt.jpg" class="img-res" alt="">
+                          <div class="portfolio-item-info">
+                              <h4>Software Development Intern</h4>
+                              <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a> -->
+                              <!-- <a href="https://www.razorthink.com/industries/customer-care-and-support/" target="#"><span class="glyphicon glyphicon-link"></span></a> -->
+                          </div><!-- /.portfolio-item-info -->
+                        </a><!-- /.portfolio-item -->
                     </div>
                 </div>
             </div>
@@ -287,62 +291,62 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem4" class="portfolio-item">
                             <img src="assets/img/btp.png" class="img-res" alt="">
                             <div class="portfolio-item-info" style="top: 115px;">
                                 <h4>Uncertainty Visualisation for Stock Prediction</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="https://github.com/vrinda41198/Uncertainty-Visualisation-for-Stock-Prediction"><span class="glyphicon glyphicon-link"></span></a>
+                                <a href="https://github.com/vrinda41198/Uncertainty-Visualisation-for-Stock-Prediction" target="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                        </a><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #8d6e2b;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem5" class="portfolio-item" style="border-color: #8d6e2b;">
                             <img src="assets/img/pvr.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>PVR Booking Portal</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="https://github.com/vrinda41198/Past-projects/tree/master/PVR%20Booking%20Portal"><span class="glyphicon glyphicon-link"></span></a>
+                                <a href="https://github.com/vrinda41198/Past-projects/tree/master/PVR%20Booking%20Portal" target="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #8acee2;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem6" class="portfolio-item" style="border-color: #8acee2;">
                             <img src="assets/img/gaa.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Genetic Algorithms</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="https://github.com/vrinda41198/GAA"><span class="glyphicon glyphicon-link"></span></a>
+                                <a href="https://github.com/vrinda41198/GAA" target="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                 </div>
 
                 <div class="row" style="padding-top: 2rem;">
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #333;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem7" class="portfolio-item" style="border-color: #333;">
                             <img src="assets/img/chase.png" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Chase</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem7"><span
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem7"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="https://github.com/vrinda41198/Past-projects/tree/master/Chase"><span class="glyphicon glyphicon-link"></span></a>
+                                <a href="https://github.com/vrinda41198/Past-projects/tree/master/Chase" target="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #999;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem8" class="portfolio-item" style="border-color: #999;">
                             <img src="assets/img/cert.png" class="img-res" alt="" style="object-fit: contain; padding: 1rem;">
                             <div class="portfolio-item-info">
                                 <h4>Certifications</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem8"><span
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem8"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
-                                <a href="https://github.com/vrinda41198/Resume-Certfications/tree/master/Certifications"><span class="glyphicon glyphicon-link"></span></a>
+                                <a href="https://github.com/vrinda41198/Resume-Certfications/tree/master/Certifications" target="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                 </div>
 
@@ -357,58 +361,58 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem9" class="portfolio-item">
                             <img src="assets/img/techgig.png" class="img-res" alt="" style="object-fit: contain; padding: 1rem;">
                             <div class="portfolio-item-info">
                                 <h4>TechGig Geek Goddess Finalist</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem9"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem9"><span class="glyphicon glyphicon-eye-open"></span></a> -->
                                 <!-- <a href="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #58bbea;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem10" class="portfolio-item" style="border-color: #58bbea;">
                             <img src="assets/img/ghc.png" class="img-res" alt="" style="object-fit: contain; padding: 1rem;">
                             <div class="portfolio-item-info" style="top: 115px;">
                                 <h4>Grace Hopper Conference India Scholar</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem10"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem10"><span class="glyphicon glyphicon-eye-open"></span></a> -->
                                 <!-- <a href="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #34a853;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem11" class="portfolio-item" style="border-color: #34a853;">
                             <img src="assets/img/google.png" class="img-res" alt="" style="object-fit: contain; padding: 1rem;">
                             <div class="portfolio-item-info">
                                 <h4>Google Get Ahead Scholar</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem11"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem11"><span class="glyphicon glyphicon-eye-open"></span></a> -->
                                 <!-- <a href="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                 </div>
 
                 <div class="row" style="padding-top: 2rem;">
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem12" class="portfolio-item">
                             <img src="assets/img/leader.png" class="img-res" alt="" style="object-fit: contain; padding: 1rem;">
                             <div class="portfolio-item-info">
                                 <h4>Leadership Positions</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem12"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem12"><span class="glyphicon glyphicon-eye-open"></span></a> -->
                                 <!-- <a href="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
+                          </a><!-- /.portfolio-item -->
+                        </div>
                     <div class="col-md-4 col-xs-6">
-                        <div class="portfolio-item" style="border-color: #29aae2;">
+                        <a href="#" data-toggle="modal" data-target="#portfolioItem14" class="portfolio-item" style="border-color: #29aae2;">
                             <img src="assets/img/lnmiit.png" class="img-res" alt="" style="object-fit: contain; padding: 1rem;">
                             <div class="portfolio-item-info">
                                 <h4>Undergraduate Teaching Assistant</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem14"><span
-                                        class="glyphicon glyphicon-eye-open"></span></a>
+                                <!-- <a href="#" data-toggle="modal" data-target="#portfolioItem14"><span
+                                        class="glyphicon glyphicon-eye-open"></span></a> -->
                                 <!-- <a href="#"><span class="glyphicon glyphicon-link"></span></a> -->
                             </div><!-- /.portfolio-item-info -->
-                        </div><!-- /.portfolio-item -->
+                          </a><!-- /.portfolio-item -->
                     </div>
                 </div>
             </div>
@@ -447,7 +451,7 @@
                             <input type="email" name="_replyto" class="form-control" placeholder="Email" required>   
                         </div>
                         <div class="col-sm-12">
-                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" style="padding-top: 0.7rem;" required></textarea>
                         </div>
                     </div>
                     <button href="#" class="btn btn-border" type="submit">Contact Me <span class="glyphicon glyphicon-send"></span></button>
@@ -458,7 +462,7 @@
     </main><!-- /#main -->
 
     <footer id="colophon" class="site-footer">
-        <div class="container">
+        <div class="container" style="width: 100%;">
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
                     <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
@@ -474,7 +478,7 @@
                 </div>
             </div>
         </div>
-    </footer><!-- /#footer -->
+    </footer>
 
     <!-- Modals -->
     <div id="portfolioItem1" class="modal fade" role="dialog">
@@ -488,7 +492,7 @@
             <h4 class="modal-title">Software Engineer (September 2020 - Present)</h4>
             <p>I am currently working as part of the Mainframe Database Operations team and undergoing training to understand the intricate details of the Mainframe System, including JCL and DB2. Post training, I will work on developing tools and software to monitor, optimise and automate the Mainframe operations.</p>
             <p>Primary technologies used: DB2, IMS, JCL.</p>
-            <h4 class="modal-title">Technology Intern (May 2019 - July 2019)</h4>
+            <h4 class="modal-title" style="padding-top: 2rem;">Technology Intern (May 2019 - July 2019)</h4>
             <p>During my internship, I was a part of the Customer Marketing Data Layer Team and worked on optimizing the creation of Organised Derived Layers containing critical customer transaction data. The original script written in Hive consumed a significant amount of resources for over 5-6 hours every day in order to update the table, but once re-written in Spark(utilising its many optimisations) took merely 15-30 minutes for the same, whilst optimising the use of available resources.</p>
             <p> Primary Technologies Used: Spark, Hive.</p>
           </div>
@@ -530,7 +534,7 @@
             <p>Primary technologies used: Python</p>
           </div>
           <div class="modal-footer">
-            <a href="https://www.razorthink.com/industries/customer-care-and-support/" class="btn btn-fill">Visit Page</a>
+            <a href="https://www.razorthink.com/industries/customer-care-and-support/" target="#" class="btn btn-fill">Visit Page</a>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -550,7 +554,7 @@
             <p>Primary Technologies Used: Python, Google Colab, Tensorflow</p>
           </div>
           <div class="modal-footer">
-            <a href="https://github.com/vrinda41198/Uncertainty-Visualisation-for-Stock-Prediction" class="btn btn-fill">Visit Page</a>
+            <a href="https://github.com/vrinda41198/Uncertainty-Visualisation-for-Stock-Prediction" target="#" class="btn btn-fill">Visit Page</a>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -572,7 +576,7 @@
             <p>Primary Technologies Used: Turbo C++</p>
         </div>
           <div class="modal-footer">
-            <a href="https://github.com/vrinda41198/Past-projects/tree/master/PVR%20Booking%20Portal" class="btn btn-fill">Visit Page</a>
+            <a href="https://github.com/vrinda41198/Past-projects/tree/master/PVR%20Booking%20Portal" target="#" class="btn btn-fill">Visit Page</a>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -591,7 +595,7 @@
             <p>Primary Technologies Used: Python</p>
           </div>
           <div class="modal-footer">
-            <a href="https://github.com/vrinda41198/GAA" class="btn btn-fill">Visit Page</a>
+            <a href="https://github.com/vrinda41198/GAA" target="#" class="btn btn-fill">Visit Page</a>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -612,7 +616,7 @@
               <p>Primary Technologies Used: Turbo C++</p>
             </div>
             <div class="modal-footer">
-              <a href="https://github.com/vrinda41198/Past-projects/tree/master/Chase" class="btn btn-fill">Visit Page</a>
+              <a href="https://github.com/vrinda41198/Past-projects/tree/master/Chase" target="#" class="btn btn-fill">Visit Page</a>
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -633,7 +637,7 @@
               <p>3. Introduction to Computer Science and Programming Using Python, offered by MIT on edX.</p>
             </div>
             <div class="modal-footer">
-              <a href="https://github.com/vrinda41198/Resume-Certfications/tree/master/Certifications" class="btn btn-fill">Visit Page</a>
+              <a href="https://github.com/vrinda41198/Resume-Certfications/tree/master/Certifications" target="#" class="btn btn-fill">Visit Page</a>
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -694,7 +698,7 @@
             <div class="modal-body">
               <h4 class="modal-title">Associate General Secretary</h4>
               <p>I was elected as the Associate General Secretary of the Science and Technical Council for the academic year of 2018-19. As the position entailed, I was responsible for taking new technology initiatives and overseeing the year-round technical activities in college. This included organising the annual Techno-management literary fest Plinth in college, which saw participation from colleges across the country showcasing their skills in various competitions including from coding, robotics, MUN and debating to name a few.</p>
-              <h4 class="modal-title">Women-in Tech Evangelist</h4>
+              <h4 class="modal-title" style="padding-top: 2rem;">Women-in Tech Evangelist</h4>
               <p>I was chosen to be the Women-in Tech Evangelist by the Computer Club Cybros for the academic year of 2017-18 owing to my active contributions to the coding community in college in the previous year. I organized various classes to help students, especially girls, learn new concepts and solidify their foundations. Apart from this, contests with special prizes for girls were also organized, in collaboration with organisations such as Google to significantly improve female participation in the coding community. </p>
             </div>
           </div><!-- /.modal-content -->
