@@ -612,6 +612,13 @@ a.icon-up-bg:hover {color: #212121;}
     .modal-dialog {
         width: 400px;
     }
+
+    .hero img {
+        height: 100px;
+        margin-bottom: 30px;
+        margin-right: 115px;
+        border: 1px solid black;
+    }
 }
 
 
