@@ -1,10 +1,3 @@
-/*
- * Theme Name: 
- * Theme URI: 
- * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
- * */
 
 /* FONT
 ================================================== */
@@ -41,7 +34,6 @@
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-gplus:before { content: '\f0d5'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
 
@@ -255,7 +247,10 @@ html, body {
 } 
 
 .hero img {
-    height: 700px;
+    height: 600px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    border: 1px solid black;
 }
 
 /* SITEMAIN
